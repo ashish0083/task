@@ -4,11 +4,15 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.5",
-    "@emotion/react": "^11.9.3",
+    "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.9.3",
     "@heroicons/react": "^1.0.6",
+    "@mantine/core": "^5.6.3",
+    "@mantine/form": "^5.6.3",
+    "@mantine/hooks": "^5.6.3",
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.9.2",
+    "@tabler/icons": "^1.108.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -43,9 +47,9 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.8",
-    "postcss": "^7.0.39",
-    "postcss-loader": "^7.0.1",
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.7",
+    "postcss-loader": "^4.0.4",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }
