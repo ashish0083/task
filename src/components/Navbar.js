@@ -7,12 +7,12 @@ import { HomeIcon, GiftIcon, LightningBoltIcon, ChatIcon, CashIcon } from "@hero
 const Navbar = () => {
 
   return (
-    <div className='flex flex-grow justify-evenly max-w-2xl'>
+    <div className='flex flex-grow justify-evenly max-w-2xl m-5'>
       <NavbarItem title='HOME' Icon={HomeIcon} />
-      <NavbarItem title='JEWELLERY' Icon={GiftIcon} />
-      <NavbarItem title='ELECTRONICS' Icon={LightningBoltIcon} />
-      <NavbarItem title='MENS' Icon={ChatIcon} />
-      <NavbarItem title='WOMENS' Icon={CashIcon} />
+      <NavbarItem title='CAPTURE' Icon={GiftIcon} />
+      <NavbarItem title='MAKE' Icon={LightningBoltIcon} />
+      <NavbarItem title='SOUNDS' Icon={ChatIcon} />
+      <NavbarItem title='ABOUT' Icon={CashIcon} />
     </div>
 
   );
